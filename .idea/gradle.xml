@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/config-server" />
         <option name="gradleHome" value="C:/Gradle/gradle-4.7" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleJvm" value="adopt-openj9-1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/config-server" />
@@ -15,9 +18,22 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gateway" />
+        <option name="gradleHome" value="C:/Gradle/gradle-4.7" />
+        <option name="gradleJvm" value="adopt-openj9-1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/product-catalog" />
         <option name="gradleHome" value="C:/Gradle/gradle-4.7" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleJvm" value="adopt-openj9-1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/product-catalog" />
@@ -26,23 +42,25 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/shopping-cart" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service-discovery" />
         <option name="gradleHome" value="C:/Gradle/gradle-4.7" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleJvm" value="adopt-openj9-1.8" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/shopping-cart" />
+            <option value="$PROJECT_DIR$/service-discovery" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../Spring Cloud projetos professor/dio-experts-master/shopping-cart" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/shopping-cart" />
         <option name="gradleHome" value="C:/Gradle/gradle-4.7" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleJvm" value="adopt-openj9-1.8" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../Spring Cloud projetos professor/dio-experts-master/shopping-cart" />
+            <option value="$PROJECT_DIR$/shopping-cart" />
           </set>
         </option>
       </GradleProjectSettings>
